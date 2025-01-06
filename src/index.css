@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ /* Toast container */
+.Toastify__toast-container {
+    width: 350px;
+}
+
+/* Individual toast */
+.Toastify__toast {
+    background-color: rgba(31, 41, 55, 0.9); /* Dark grey background similar to your page */
+    border: 1px solid #3b82f6; /* Blue border for a subtle accent */
+    color: white; /* White text for better readability */
+    font-family: 'MuseoModerno', sans-serif; /* Matching the font of your page */
+    font-size: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+/* Error toast */
+.Toastify__toast--error {
+    border-color: #dc2626; /* Red border for errors */
+    background-color: rgba(220, 38, 38, 0.8); /* Slightly transparent red background */
+}
+
+.Toastify__toast--success {
+    border-color: #10b981; /* Green border for success */
+    background-color: rgba(16, 185, 129, 0.8); /* Slightly transparent green background */
+}
+
+/* Close button */
+.Toastify__close-button {
+    color: white;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.Toastify__close-button:hover {
+    opacity: 1;
+}
+
+/* Progress bar */
+.Toastify__progress-bar {
+    background-color: #3b82f6; /* Blue progress bar to match the accent color */
+}

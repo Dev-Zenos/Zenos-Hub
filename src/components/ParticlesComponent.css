@@ -1,0 +1,28 @@
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+.particles-container {
+  position: fixed; /* Fixed position to cover the entire viewport */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Lower z-index to ensure it is behind other components */
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #2d3748; /* bg-gray-800 equivalent */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}

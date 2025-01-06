@@ -1,0 +1,46 @@
+{
+  "name": "Kirka-Hub",
+  "private": true,
+  "version": "0.0.0",
+  "homepage": "https://NikunjB-dev.github.io/react-gh-pages",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "server": "node script.cjs",
+    "prod": "vercel --prod"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.3.1",
+    "@vercel/speed-insights": "^1.0.12",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "kirkajs": "^1.4.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.25.1",
+    "react-spinners": "^0.14.1",
+    "react-toastify": "^10.0.5",
+    "react-typed": "^2.0.12"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.3",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "gh-pages": "^6.1.1",
+    "json-server": "^1.0.0-beta.1",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.6",
+    "vite": "^5.3.4"
+  }
+}
